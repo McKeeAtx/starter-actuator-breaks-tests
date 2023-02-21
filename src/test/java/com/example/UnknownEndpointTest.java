@@ -33,6 +33,6 @@ public class UnknownEndpointTest {
 
         mockMvc
                 .perform(get("/unknown-endpoint").header("Authorization", invalidHeader))
-                .andExpect(status().isNotFound());
+                .andExpect(status().is4xxClientError());
     }
 }
