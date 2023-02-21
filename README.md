@@ -1,6 +1,6 @@
 # starter-actuator-breaks-tests
 
-Setup: A bare bones Spring Boot application that uses the following starter:
+Setup: A bare bones Spring Boot application that uses the following starters:
 
 ```
 dependencies {
